@@ -336,6 +336,7 @@ ul{
                 #e21f70 0%,
                 #ff4d2c 100%
               );
+  border-bottom-left-radius: 0px;
 }
 
 .inner-header-img-div {
