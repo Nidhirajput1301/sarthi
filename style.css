@@ -1,0 +1,549 @@
+html {
+  font-family: "Montserrat", "Roboto", "Arial", sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: palevioletred;
+}
+
+ul{
+  list-style-type: none; 
+}
+
+/***** first Section *********/
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1e2022;
+  letter-spacing: 1.04px;
+  margin: 0;
+  line-height: 51px;
+}
+
+.blink {
+  background: -webkit-linear-gradient(left, #e21f70, #ff4d2c);
+  background: -o-linear-gradient(right, #e21f70, #ff4d2c);
+  background: -moz-linear-gradient(right, #e21f70, #ff4d2c);
+  background: linear-gradient(to right, #e21f70, #ff4d2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-title {
+    margin: auto;
+    width: 80%;
+}
+
+.sub-title p {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.85);
+    opacity: 78%;
+    letter-spacing: 0.47px;
+    line-height: 30px;
+    margin-top: 6%;
+}
+
+.header-img-div {
+  border-bottom-left-radius: 40px;
+}
+
+.header-img {
+  height: 240px;
+  width: 120px;
+}
+
+/***** first Section ends *********/
+
+.heading {
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+.heading h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 1.2;
+  letter-spacing: -0.16px;
+}
+
+.sub-heading {
+  margin-top: 32px;
+  width: 75%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.heading .sub-heading p {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.85);
+  letter-spacing: 0.01px;
+  line-height: 36px;
+  width: 80%;
+  margin: auto;
+}
+
+
+/******* second Section *********/
+.second-ul{
+ width: 70%;
+ margin-top: 51px;
+ margin-left: auto;
+ margin-right: auto;
+ list-style-image: url('img/check.png');
+ 
+}
+
+.second-ul li {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    line-height: 26px;
+    letter-spacing: 0px;
+    opacity: 60%;
+    padding-bottom: 26px;
+    text-align: left;
+}
+
+/***** third Section *********/
+.features_list {
+  padding-left: 3%;
+  margin-top: 50px;
+  padding-right: 3%;
+}
+
+.features {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: -0.17px;
+    margin-top: 19px;
+    margin-bottom: 14px;
+}
+
+.features_subtext {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 30px;
+    letter-spacing: 0.03px;
+    
+}
+
+/***** Fourth Section *********/
+
+.btn-grp{
+  margin: 16px auto 50px auto;
+  text-align: center;
+}
+
+.mybtn{
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 2.15px;
+  text-align: center;
+  color: #e21f70;
+  border: 1px solid #e21f70;
+  background-color: white;
+  width: 190px;
+  height: 45px;
+}
+
+.mybtn-one{
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+}
+
+.mybtn-three{
+  border-top-right-radius: 52px;
+  border-bottom-right-radius: 52px;
+  background-color: rgba(226, 31, 112, 0.2);
+}
+
+.utube {
+  text-align: center;
+  margin-left: auto;
+}
+
+
+/***** Fifth Section *********/
+.blog_list{
+    margin-top: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.blog {
+    text-align: left;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.read-more {
+     margin-top: 10%;
+}
+
+.blog-links {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 17px;
+    color: #E21F70;
+    font-weight: 500;  
+}
+
+.blog-links:hover {
+    text-decoration: underline;
+}
+
+
+/***** sixth Section *********/
+.sixth{ 
+  margin-top: 100px;
+}
+
+.footer-col{
+  text-align: center;
+}
+.footer-logo {
+  margin-bottom: 36px;
+}
+
+.footer-btn {
+  width: 170px;
+  height: 70px;
+}
+
+.footer-ul li a{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    opacity: 85%;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.ul-one{
+  line-height: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.ul-two{
+  line-height: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.footer-info-one {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    letter-spacing: 0.36px;
+    line-height: 21px;
+}
+
+.footer-info-two {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0.34px;
+    line-height: 21px;
+    opacity: 70%;
+    margin-top: 16px;
+}
+
+.footer-info-three {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    letter-spacing: 0.36px;
+    line-height: 21px;
+    opacity: 78%;
+    margin-bottom: 53px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) { 
+/***** first Section *********/
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 38px;
+  letter-spacing: 0.03px;
+  margin: 0;
+  line-height: 51px;
+}
+
+.sub-title {
+    margin: auto;
+    width: 65%;
+    text-align: center;
+}
+
+.sub-title p {
+    font-size: 15px;
+    letter-spacing: 0.28px;
+    line-height: 25px;
+    margin-top: 19px;
+}
+
+.header-img-div {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(
+                to top right,
+                #e21f70 0%,
+                #ff4d2c 100%
+              );
+}
+
+.inner-header-img-div {
+  position: absolute;
+  bottom: -50%;
+  right: 25%;
+}
+
+.header-img {
+  height: 240px;
+  width: 120px;
+}
+
+/***** first Section ends *********/
+
+.heading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heading h2 {
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: -0.07px;
+}
+
+.sub-heading {
+  margin-top: 22px;
+}
+
+.heading .sub-heading p {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.85);
+  letter-spacing: 0.28px;
+  line-height: 25px;
+  width: 70%;
+  margin: auto;
+}
+
+
+
+/******* second Section *********/
+
+.second-ul{
+ margin-top: 10px;
+ width: 70%;
+ text-align: center;
+ list-style-image: url('img/check.png');
+}
+
+.second-ul li {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    opacity: 60%;
+    text-align: left;
+}
+
+/***** third Section *********/
+.features_list {
+    margin-top:50px;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: left;
+}
+
+.features {
+    font-size: 22px;
+    letter-spacing: -0.15px;
+    margin-top: 13px;
+    margin-bottom: 9px;
+}
+
+.features_subtext {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 26px;
+    letter-spacing: 0.03px;
+    
+}
+
+/***** Fourth Section *********/
+
+.btn-grp{
+  margin: 10% auto;
+}
+
+.mybtn{
+  font-size: 12px;
+  letter-spacing: 1.85px;
+  text-align: center;
+  width: 113px;
+  height: 40px;
+}
+
+.mybtn-one{
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+}
+
+.mybtn-three{
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+  background-color: rgba(226, 31, 112, 0.2);
+}
+
+
+/***** Fifth Section *********/
+.blog_list{
+    margin-top: 45px;
+}
+
+.blog {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.read-more {
+     margin-top: 10%;
+}
+
+.blog-links {
+    font-size: 15px;
+    font-weight: 500;  
+}
+
+.blog-links:hover {
+    text-decoration: underline;
+}
+
+
+/***** sixth Section *********/
+
+.sixth{
+  margin-top: 123px;
+}
+
+.footer-col{
+  padding-bottom: 5%;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-btn {
+  width: 170px;
+  height: 70px;
+}
+
+.footer-ul li a{
+    font-size: 14px;
+    opacity: 0.9;
+    letter-spacing: 0.36px;
+    line-height: 30px;
+}
+
+.ul-one{
+  text-align: left;
+  line-height: 20px;
+  margin-left: 5%;
+}
+
+.ul-two{
+  padding-left: 0%;
+  text-align: left;
+}
+
+
+.footer-info-one {
+    font-size: 14px;
+    letter-spacing: 0.36px;
+    line-height: 21px;
+}
+
+.footer-info-two {
+    font-size: 13px;
+    letter-spacing: 0.34px;
+    line-height: 21px;
+    opacity: 70%;
+    margin-top: 10px;
+}
+
+.footer-info-three {
+    font-size: 14px;
+    letter-spacing: 0.36px;
+    line-height: 21px;
+    opacity: 78%;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+}
+
+
+
+
+
